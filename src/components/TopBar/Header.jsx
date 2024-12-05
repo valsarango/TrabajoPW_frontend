@@ -19,20 +19,35 @@ function Header() {
     }
   };
 
+  // Navegación hacia el inicio de sesión
+  const handleLogin = () => {
+    navigate('/login');
+  };
+
+  // Navegación hacia crear cuenta
+  const handleSignup = () => {
+    navigate('/signup');
+  };
+
+  // Navegación hacia el carrito de compras
+  const handleCart = () => {
+    navigate('/cart');
+  };
+
   return (
     <header className="header">
       <div className="header-container">
         <div className="logo">
-          <a href="/" title='Inicio'>
+          <button onClick={() => navigate('/')} className="logo-button" title="Inicio">
             <img src="src/assets/img/Logo FunkoSpace.JPG" alt="Logo" />
-          </a>
+          </button>
         </div>
         <div className="header-options">
-          <div className='site-header-text'>
-            <span className='site-header-links'>
-              <a href="/login" className="header-link" title='Inicio Sesion'>Iniciar Sesión</a>
-              <span className='site-header-spacer'>o</span>
-              <a href="/signup" className="header-link" title='Crear Cuenta'>Crear una cuenta</a>
+          <div className="site-header-text">
+            <span className="site-header-links">
+              <button onClick={handleLogin} className="header-link" title="Inicio Sesion">Iniciar Sesión</button>
+              <span className="site-header-spacer">o</span>
+              <button onClick={handleSignup} className="header-link" title="Crear Cuenta">Crear una cuenta</button>
             </span>
           </div>
           <div className="header-search">
@@ -46,9 +61,9 @@ function Header() {
             <button className="search-button" onClick={handleSearchSubmit}>
               <img src="src/assets/img/buscador.png" alt="Buscar" />
             </button>
-            <button className="cart-button">
+            <button className="cart-button" onClick={handleCart}>
               <img src="src/assets/img/carrito de compras.png" alt="Carrito" />
-              <a href="/cart" title='Carrito de Compras'>CARRITO</a>
+              <span>CARRITO</span>
             </button>
           </div>
         </div>
