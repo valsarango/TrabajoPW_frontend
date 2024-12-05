@@ -119,4 +119,14 @@
     height: 24px;
     margin-right: 5px;
   }
+
+  .link-style {
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s;
+  }
   
+  .link-style:hover {
+    color: #000;
+    text-decoration: none;
+  } 
