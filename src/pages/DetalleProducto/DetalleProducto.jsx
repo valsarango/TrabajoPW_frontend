@@ -1,5 +1,6 @@
+// DetalleProducto.jsx
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import productos from '../../api/productos';
 import '../DetalleProducto/DetalleProducto.css';
 
@@ -29,19 +30,19 @@ const DetalleProducto = () => {
 
   return (
     <div className="div-productos">
-        <a href="/" title='Volver a Inicio'>Inicio</a>
-        <span className="divider" aria-hidden="true">|</span>
-        <a href="/Productos" title="Ir a productos">Productos</a>
-        <span className="divider" aria-hidden="true">|</span>
-        <span>Detalles de Producto</span>
-        <hr />
-    <div className="detalle-producto">
+      <Link to="/" title='Volver a Inicio'>Inicio</Link>
+      <span className="divider" aria-hidden="true">|</span>
+      <Link to="/Productos" title="Ir a productos">Productos</Link>
+      <span className="divider" aria-hidden="true">|</span>
+      <span>Detalles de Producto</span>
+      <hr />
+      <div className="detalle-producto">
         <h1>{producto.nombre}</h1>
         <img src={producto.imagen || 'https://via.placeholder.com/150'} alt={producto.nombre} />
         <p className="precio">S/ {producto.precio}</p>
         <p>{producto.descripcion}</p>
         <button className="btn-agregar" title='Agregar al carrito'>Agregar al carrito</button>        
-    </div>
+      </div>
     </div>
   );
 };
