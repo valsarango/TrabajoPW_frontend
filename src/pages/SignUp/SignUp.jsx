@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import api from '../../api/signup'; 
-import './Signup.css';
+import '../SignUp/SignUp.css';
 import { Modal, Box, Typography, Button } from '@mui/material';
 
 const Signup = () => {
