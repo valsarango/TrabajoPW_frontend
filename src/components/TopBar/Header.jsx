@@ -6,7 +6,7 @@ function Header() {
   const [searchTerm, setSearchTerm] = useState('');
   const navigate = useNavigate();
 
-  // Cambio en el campo de búsqueda
+  // Cambio en el input de búsqueda
   const handleSearchChange = (e) => {
     setSearchTerm(e.target.value);
   };
