@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../TopBar/Nav.css';
 
 const navItems = [
@@ -60,6 +61,8 @@ const navItems = [
 ];
 
 function Nav() {
+  const navigate = useNavigate(); // Inicializa useNavigate
+
   return (
     <div>
       <nav className="nav">
@@ -74,7 +77,13 @@ function Nav() {
                     {item.submenu.map((subItem, subIndex) => (
                       <li key={subIndex} className="nav-submenu-item">
                         {subItem.link ? (
-                          <a href={subItem.link}>{subItem.text}</a>
+                          // Utiliza navigate para redirigir cuando se hace clic
+                          <span 
+                            onClick={() => navigate(subItem.link)}
+                            className="link-style"
+                          >
+                            {subItem.text}
+                          </span>
                         ) : (
                           subItem.text
                         )}
