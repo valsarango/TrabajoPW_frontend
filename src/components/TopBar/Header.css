@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
   .header-container {
@@ -121,12 +122,13 @@
   }
 
   .link-style {
+    font-weight: 550;
+    color: #545454;
     cursor: pointer;
-    color: #333;
     transition: color 0.3s;
   }
   
   .link-style:hover {
-    color: #000;
+    color: grey;
     text-decoration: none;
   } 
