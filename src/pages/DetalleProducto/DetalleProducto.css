@@ -1,0 +1,95 @@
+.detalle-producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #333;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.detalle-producto h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.detalle-producto img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.detalle-producto .precio {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #e53935;
+  margin-bottom: 10px;
+}
+
+.detalle-producto p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.detalle-producto .btn-agregar {
+  display: inline-block;
+  background-color: #111;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.detalle-producto .btn-agregar:hover {
+  background-color: #333;
+}
+
+.div-productos {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  max-width: 1200px;
+  justify-content: center;
+  max-width: 1200px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  margin: 35px auto 0;
+  padding-left: 25px;
+  text-align: left;
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.div-productos a {
+  text-decoration: none;
+  color: #666;
+}
+
+.div-productos a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.divider {
+  margin: 0 5px;
+  color: black;
+}

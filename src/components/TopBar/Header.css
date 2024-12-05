@@ -1,0 +1,122 @@
+.header {
+    background-color: #fff;
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    width: 50%;
+    text-align: left;
+  }
+  
+  .logo img {
+    height: 90px;
+  }
+  
+  .site-header-text {
+    display: inline-block;
+    font-size: .85em;
+    margin-right: 8px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #545454;
+  }
+  
+  .site-header-links {
+    display: inline-block;
+    margin-left: 15px;
+  }
+  
+  .site-header-links a{
+    font-weight: 550;
+    color: #545454;
+  }
+
+  .site-header-links a:hover {
+    color: grey;
+  }  
+  
+  .site-header-spacer {
+    padding: 0 5px;
+  }
+  
+  .header-options {
+    list-style: none;
+    box-sizing: border-box;
+    width: 50%;
+    text-align: right!important;
+    padding-left: 0;
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .header-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .header-search {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .search-input {
+    border: none;
+    padding: 13px;
+    width: 260px;
+    background-color: #f1f1f1;
+  }
+
+  .search-button img {
+    width: 37px;
+    height: 37px;
+  }
+  
+  .search-button {
+    border: none;
+  }
+
+  .cart-button {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    width: 120px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+    font-weight: 550;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 1%;
+  }
+
+  .cart-button a {
+    text-align: center;
+    color: #696969;
+    text-decoration: none;
+  }
+  
+  .cart-button img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+  }
+  

@@ -1,0 +1,57 @@
+.productos {
+    padding: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .products-header {
+    max-width: 1200px;
+    justify-content: center;
+    max-width: 1200px;
+    margin-bottom: 20px;
+    margin: 35px auto 0;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    text-align: left;
+  }
+
+  .products-container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 25px;
+  }
+
+  .nav-inicio {
+    max-width: 1200px;
+    justify-content: center;
+    max-width: 1200px;
+    margin-bottom: 20px;
+    margin: 35px auto 0;
+    padding-left: 25px;
+    text-align: left;
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.nav-inicio a {
+    text-decoration: none;
+    color: #666;
+}
+
+.nav-inicio a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.divider {
+    margin: 0 5px;
+}
+
+.producto-no-encontrado {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  font-size: 21px;
+}

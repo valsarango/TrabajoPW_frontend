@@ -1,0 +1,31 @@
+.product-card-details h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 7px;
+}
+
+.product-card-details p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2px;
+}
+
+.product-card-button {
+    margin-left: 15px;
+    margin: 10px;
+    color: #3f3e3e;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    width: 120px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+    font-weight: 550;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 7%;
+}
+
+.product-card-button:hover {
+    background-color: #cccccc; 
+}
