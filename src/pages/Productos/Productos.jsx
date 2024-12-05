@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import productos from '../../api/productos';
 import TarjetaProducto from '../../components/TarjetaProducto/TarjetaProducto';
 import { useNavigate, useLocation } from 'react-router-dom';
-import './Productos.css';
+import '../Productos/Productos.css';
 
 const Productos = () => {
   const [productList, setProductList] = useState([]);

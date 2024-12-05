@@ -1,5 +1,5 @@
 import React from 'react';
-import './TarjetaProducto.css';
+import '../TarjetaProducto/TarjetaProducto.css';
 
 const TarjetaProducto = ({ producto, onVerDetalles }) => {
   if (!producto) return null;

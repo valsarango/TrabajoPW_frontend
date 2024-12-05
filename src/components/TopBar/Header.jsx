@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Header.css';
+import '../TopBar/Header.css';
 
 function Header() {
   const [searchTerm, setSearchTerm] = useState('');

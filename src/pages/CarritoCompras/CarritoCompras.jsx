@@ -1,7 +1,7 @@
 // CarritoCompras.jsx
 import React, { useEffect, useState } from 'react';
 import carritoCompras from '../../api/carritoCompras';
-import './CarritoCompras.css';
+import '../CarritoCompras/CarritoCompras.css';
 
 const CarritoCompras = () => {
   const [carrito, setCarrito] = useState([]);

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import productos from '../../api/productos';
-import './DetalleProducto.css';
+import '../DetalleProducto/DetalleProducto.css';
 
 const DetalleProducto = () => {
   const { id } = useParams();

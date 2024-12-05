@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Main.css';
+import '../Home/Main.css';
 
 const images = [
     'src/assets/img/Catalogo1.png',

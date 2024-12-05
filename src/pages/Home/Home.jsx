@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import productos from '../../api/productos';
 import TarjetaProducto from '../../components/TarjetaProducto/TarjetaProducto';
 import Main from './Main';
-import './Home.css';
+import '../Home/Home.css';
 import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
