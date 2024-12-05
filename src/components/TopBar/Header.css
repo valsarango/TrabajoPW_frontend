@@ -24,6 +24,12 @@
   .logo img {
     height: 90px;
   }
+
+  .logo-button {
+    border: none;
+    cursor: pointer;
+    background: none;
+  }
   
   .site-header-text {
     display: inline-block;
@@ -126,9 +132,10 @@
     color: #545454;
     cursor: pointer;
     transition: color 0.3s;
+    text-decoration: none;
   }
   
   .link-style:hover {
     color: grey;
     text-decoration: none;
-  } 
+  }

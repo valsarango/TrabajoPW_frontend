@@ -39,7 +39,7 @@ function Header() {
       <div className="header-container">
         <div className="logo">
           <button onClick={() => navigate('/')} className="logo-button" title="Inicio">
-            <img src="src/assets/img/Logo FunkoSpace.JPG" alt="Logo" />
+            <img src="src/assets/img/Logo FunkoSpace.JPG" alt="Logo" style={{ border: 'none' }} />
           </button>
         </div>
         <div className="header-options">
