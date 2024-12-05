@@ -61,7 +61,7 @@ const navItems = [
 ];
 
 function Nav() {
-  const navigate = useNavigate(); // Inicializa useNavigate
+  const navigate = useNavigate();
 
   return (
     <div>
@@ -77,7 +77,6 @@ function Nav() {
                     {item.submenu.map((subItem, subIndex) => (
                       <li key={subIndex} className="nav-submenu-item">
                         {subItem.link ? (
-                          // Utiliza navigate para redirigir cuando se hace clic
                           <span 
                             onClick={() => navigate(subItem.link)}
                             className="link-style"
