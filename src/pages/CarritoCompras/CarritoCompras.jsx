@@ -20,7 +20,7 @@ const CarritoCompras = () => {
       {carrito.length === 0 ? (
         <>
         <p>Su carrito actualmente está vacío.</p>
-        <p>Continúe explorando <a href="/Productos">aquí</a>.</p>
+        <p>Continúe explorando <a href="/Productos" title='Inicio'>aquí</a>.</p>
       </>
       ) : (
         <div className="carrito-items">

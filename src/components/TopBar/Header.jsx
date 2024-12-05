@@ -58,10 +58,10 @@ function Header() {
               value={searchTerm}
               onChange={handleSearchChange}
             />
-            <button className="search-button" onClick={handleSearchSubmit}>
+            <button className="search-button" onClick={handleSearchSubmit} title='Buscar'>
               <img src="src/assets/img/buscador.png" alt="Buscar" />
             </button>
-            <button className="cart-button" onClick={handleCart}>
+            <button className="cart-button" onClick={handleCart} title='Carrito de Compras'>
               <img src="src/assets/img/carrito de compras.png" alt="Carrito" />
               <span>CARRITO</span>
             </button>
