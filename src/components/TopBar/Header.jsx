@@ -45,9 +45,9 @@ function Header() {
         <div className="header-options">
           <div className="site-header-text">
             <span className="site-header-links">
-              <span onClick={handleLogin} className="header-link link-style" title="Inicio Sesion">Iniciar Sesión</span>
+              <span onClick={handleLogin} className="header-link link-style-header" title="Inicio Sesion">Iniciar Sesión</span>
               <span className="site-header-spacer">o</span>
-              <span onClick={handleSignup} className="header-link link-style" title="Crear Cuenta">Crear una cuenta</span>
+              <span onClick={handleSignup} className="header-link link-style-header" title="Crear Cuenta">Crear una cuenta</span>
             </span>
           </div>
           <div className="header-search">

@@ -133,7 +133,7 @@
   margin-right: 5px;
 }
 
-.link-style {
+.link-style-header {
   font-weight: 550;
   color: #545454;
   cursor: pointer;
@@ -141,7 +141,7 @@
   text-decoration: none;
 }
 
-.link-style:hover {
+.link-style-header:hover {
   color: grey;
   text-decoration: none;
 }
