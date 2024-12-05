@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../TopBar/Header.css';
 
-import buscadorIcon from '../../assets/img/buscador.png';
-
 function Header() {
   const [searchTerm, setSearchTerm] = useState('');
   const navigate = useNavigate();
@@ -26,7 +24,7 @@ function Header() {
       <div className="header-container">
         <div className="logo">
           <a href="/" title='Inicio'>
-          <img src={logo} alt="Logo" />
+            <img src="src/assets/img/Logo FunkoSpace.JPG" alt="Logo" />
           </a>
         </div>
         <div className="header-options">
@@ -46,10 +44,10 @@ function Header() {
               onChange={handleSearchChange}
             />
             <button className="search-button" onClick={handleSearchSubmit}>
-              <img src={buscadorIcon} alt="Buscar" />
+              <img src="src/assets/img/buscador.png" alt="Buscar" />
             </button>
             <button className="cart-button">
-              <img src={carritoIcon} alt="Carrito" />
+              <img src="src/assets/img/carrito de compras.png" alt="Carrito" />
               <a href="/cart" title='Carrito de Compras'>CARRITO</a>
             </button>
           </div>
