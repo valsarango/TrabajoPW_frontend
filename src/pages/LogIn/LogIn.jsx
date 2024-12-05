@@ -14,7 +14,7 @@ const Login = () => {
       const response = await api.login({ email, password });
       console.log('Usuario logueado:', response);
       // Si el login es exitoso, redirige a la página de productos
-      navigate('/productos');
+      navigate('/Productos');
     } catch (error) {
       console.error('Error en el login:', error);
     }
